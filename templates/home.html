@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+    My Blog|首页
+{% endblock %}
+
+
+{% block header_extend %}
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+{% endblock %}
+
+{% block nav_home_active %}active{% endblock %}
+
+{% block content %}
+
+    <h3 class="home-content">Welcome to my blog site!</h3>
+{% endblock %}
